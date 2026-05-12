@@ -6,7 +6,7 @@ int main() {
     double num = 100.699;
     int a = (int)num;
 
-    cout << a << endl;
+    cout << (9 >> 2) << endl;
 
     return 0;
 }
