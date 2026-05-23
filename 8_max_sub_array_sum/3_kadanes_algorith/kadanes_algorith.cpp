@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
     vector<int> arr = {3, -4, 5, 4, -1, 7, -8};
-    int size = sizeof(arr) / sizeof(arr[0]);
+    int size = arr.size();
     int currentSum = 0, maxSum = INT_MIN;
 
     for (int val : arr) {
